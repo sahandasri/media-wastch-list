@@ -4,10 +4,12 @@ import { AppComponent } from './app.component';
 import { MediaItemComponent } from './media-item.component';
 import {FavoriteDirective} from './favorite.directive';
 import {CategoryListPip} from './category-list.pip';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   declarations: [
     AppComponent,
