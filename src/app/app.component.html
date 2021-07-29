@@ -2,6 +2,7 @@
   <header>
     <h1>Media Watch List</h1>
     <p class="description">Keeping track of the media I want to watch.</p>
+    <p>categories: {{mediaItems | categoryList}}</p>
   </header>
   <mw-media-item
     *ngFor="let mediaItem of mediaItems"
